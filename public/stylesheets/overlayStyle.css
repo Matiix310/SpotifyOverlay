@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: rgba(255,255,255,0);
+}
+
+.mainContainer {
+    width: 490px;
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    margin: 10px;
+}
+
+.bold {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.light {
+    color: #A6A6A6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+#image {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.progress-value {
+    box-shadow: 0 5px 20px -5px #1ED760;
+    border-radius: 100px;
+    background: #1ED760;
+    height: 15px;
+    width: 90%;
+}
+
+.hidden {
+    display: none;
+}
+
+#info {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 15px;
+    font-size: 25px;
+}

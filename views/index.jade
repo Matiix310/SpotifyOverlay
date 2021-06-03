@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  header
+    h1= title
+  
+  div(class="container big")
+    h1(class="content main")= "Bienvenue sur l'assistant de configuration Spotify Overlay"
+    div(class="join item")
+      h1(class="sub text")= "- Veuillez vous identifier "
+      a(class="sub text" href="https://accounts.spotify.com/authorize?client_id=0d6acec2064d43b4ae61f629155bca40&response_type=code&redirect_uri=http%3A%2F%2Flocalhost:8000%2Fsucces&scope=user-read-currently-playing%20user-read-email&state=34fFs29kd09")= "ici"
+    h1(class="sub text item")= "- Une fois l'authentification éfectuée, l'overlay sera opérationnnel à l'addresse : http://localhost:8000/spotify"
