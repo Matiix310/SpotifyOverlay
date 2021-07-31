@@ -40,6 +40,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-console.log("Serveur lancé avec succes sur le port 8888");
+console.log("Serveur lancé avec succes sur le port 8000");
 
 module.exports = app;

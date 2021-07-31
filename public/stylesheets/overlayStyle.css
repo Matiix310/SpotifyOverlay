@@ -6,12 +6,17 @@
 body {
     padding: 0;
     margin: 0;
-    background: rgba(255,255,255,0);
+    overflow: hidden;
+    /* background: rgba(0,0,0,.5); */
 }
 
 .mainContainer {
     width: 490px;
     display: flex;
+    background-color: rgba(0,0,0,0.8);
+    padding-bottom: 7px;
+    padding-right: 10px;
+    border-radius: 20px;
 }
 
 .container {
@@ -26,7 +31,7 @@ body {
 }
 
 .light {
-    color: #A6A6A6;
+    color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     font-size: 20px;
@@ -54,11 +59,13 @@ body {
 }
 
 .progress-value {
-    box-shadow: 0 5px 20px -5px #1ED760;
+    box-shadow: 0 5px 20px -5px #2559db; /* progress bar color */
     border-radius: 100px;
-    background: #1ED760;
+    background: #2559db; /* progress bar color */
     height: 15px;
     width: 90%;
+
+    transition: 1s ease;
 }
 
 .hidden {
